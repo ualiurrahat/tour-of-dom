@@ -19,5 +19,7 @@ const placesUL = document.querySelector(".place-container ul");
 const li = document.createElement("li");
 // add text to li
 li.innerText = "New Place to explore";
+// chang li color to black
+li.style.color="black";
 // adding li to place section ul.
 placesUL.append(li);
