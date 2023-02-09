@@ -36,3 +36,15 @@ for(const location of locations)
 const loc = document.querySelector(".place-container li");
 console.log(loc);
 
+
+// get attribute, set attribute
+const ob = document.getElementById("target-title");
+ob.style.color = "violet";
+console.log(ob.classList);
+ob.classList.remove("hudai");
+ob.classList.add("moja");
+console.log(ob.classList);
+// set attribute
+ob.setAttribute("title", "tooltip set by javascript");
+// mouse over the ob and you will find the message as tooltip
+
